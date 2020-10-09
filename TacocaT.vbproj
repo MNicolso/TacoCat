@@ -118,6 +118,7 @@
     <Content Include="Content\img\projects\navigation\left-arrow.png" />
     <Content Include="Content\img\projects\navigation\right-arrow-light.png" />
     <Content Include="Content\img\projects\navigation\right-arrow.png" />
+    <Content Include="Content\img\taco.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\cbpGridGallery.js" />
