@@ -31,19 +31,20 @@
     <header class="header" id="navbar-collapse-toggle">
         <!-- Fixed Navigation Starts -->
         <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-            <li class="icon-box">
+            <li class="icon-box active" data-toggle="modal" data-target="#instructionModal">
                 <i class="fa fa-info-circle"></i>
-                <a href="">
+                <a>
                     <h2>instructions</h2>
                 </a>
             </li>
+
             <li class="icon-box active">
                 <i class="fa fa-compass"></i>
                 <a href="index.html">
                     <h2>TacocaT</h2>
                 </a>
             </li>
-       </ul>
+        </ul>
         <!-- Fixed Navigation Ends -->
         <!-- Mobile Menu Starts -->
         <nav role="navigation" class="d-block d-lg-none">
@@ -72,11 +73,11 @@
     <!-- Page Title Ends -->
     <!-- Main Content Starts -->
 
-<div class="row">
-    <div class="col-8 offset-2">
+    <div class="row">
+        <div class="col-8 offset-2">
 
-        <pre>
-        <code class="language-js line-numbers">    const printBox = document.getElementById("printBox");
+            <pre>
+            <code class="language-js line-numbers">    const printBox = document.getElementById("printBox");
             const statusBox = document.getElementById("statusBox");
 
             document.getElementById("button").addEventListener('click', () => {
@@ -97,9 +98,34 @@
             }
             </code>
         </pre>
+        </div>
     </div>
-</div>
     <!-- Main Content Ends -->
+    <!-- Modal starts -->
+    <div class="modal" id="instructionModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">INSTRUCTIONS</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Instructions will go here.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal Ends -->
     <!-- Template JS Files -->
     <script src="Scripts/jquery-3.5.0.min.js"></script>
     <script src="Scripts/preloader.min.js"></script>
